@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+}
+
+header .headerblock {
+    width: 1000px;
+    height: 25px;
+    background-color: #c8f2ff;
+    display: flex;
+}
+
+header .headerblock .logotop {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin: 3px 10px 2px 50px;
+}
+
+.menulist {
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px 0 10px;
+    padding: 2px;
+    border: 1px solid #00a2ff;
+    border-radius: 10px;
+    transform: rotate(2s);
+    transition: 1s;
+}
+
+li:hover {
+    background: plum;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+    background: #edf7fa;
+}
+
+main .retseptiki {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+main .retseptiki div {
+    width: 475px;
+    padding: 5px 10px 10px 30px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 22px;
+    border: 2px solid #86c8ff;
+}
+
+main img {
+    width: 400px;
+    height: 360px;
+}
+
+footer {
+    width: 1000px;
+    height: 100px;
+    background: #c8f2ff;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: rebeccapurple;
+}
+
+footer .logofooter .logo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #74c2e6;
+    border-radius: 50px;
+}
+
+.contacts {
+    width: 200px;
+    height: 70px;
+}

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+}
+
+header .headerblock {
+    width: 1000px;
+    height: 25px;
+    background-color: #f7fda0;
+    display: flex;
+}
+
+header .headerblock .logotop {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin: 3px 10px 2px 50px;
+}
+
+.menulist {
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px 0 10px;
+    padding: 2px;
+    border: 1px solid #c3d807;
+    border-radius: 10px;
+    color: peru;
+    transform: rotate(2s);
+    transition: 1s;
+}
+
+li:hover {
+    background: plum;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+    background:  #fcffcd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indigo;
+    line-height: 22px;
+}
+
+main .qiziqrasm {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .qiziqrasm div {
+    width: 450px;
+    height: 450px;
+    padding: 10px 13px;
+    border: 1px solid rgb(235, 229, 175);
+}
+
+main img {
+    width: 418px;
+    height: 300px;
+}
+
+footer {
+    width: 1000px;
+    height: 100px;
+    background: #f7fda0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: rebeccapurple;
+}
+
+footer .logofooter .logo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(116, 194, 230);
+    border-radius: 50px;
+}
+
+.contacts {
+    width: 200px;
+    height: 70px;
+}

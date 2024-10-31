@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1000px;
+    height: 100px;
+    background: url(../img/1.jpg) no-repeat;
+    margin: auto;
+    display: flex;
+}
+
+header .headerblock {
+    width: 1000px;
+    height: 25px;
+    background-color: rgb(255, 112, 102);
+    display: flex;
+}
+
+header .headerblock .logotop {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin: 3px 10px 2px 50px;
+}
+
+.menulist {
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px 0 10px;
+    padding: 2px;
+    border: 1px solid rgb(255, 72, 0);
+    border-radius: 10px;
+    color: peru;
+    transform: rotate(2s);
+    transition: 1s;
+}
+
+li:hover {
+    background: plum;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.fotolavha {
+    width: 1000px;
+    margin: auto;
+}
+
+.foto {  
+    width: 320px;
+    height: 305px;
+    margin: 5px 5px;
+    filter: sepia(70%);
+    transition: 1s;
+    
+}
+
+.foto:hover {
+    filter: none;
+}
+
+
+
+footer {
+    width: 1000px;
+    height: 100px;
+    background: rgb(255, 112, 102);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: rebeccapurple;
+}
+
+footer .logofooter .logo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(116, 194, 230);
+    border-radius: 50px;
+}
+
+.contacts {
+    width: 200px;
+    height: 70px;
+}
